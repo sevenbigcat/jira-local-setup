@@ -38,6 +38,7 @@ mysql> flush privileges;
 
 ### 启动JIRA服务访问http://localhost:5050 进行配置
 
+![setup 1](pic/p1.png)
 
 ### 覆盖jar包
 将atlassian-extras-3.2.jar从 150机器拷贝至d:\dev\atlassin-jira-software-8.5.8-standalone\atlassian-jira\WEB-INF\lib下面
