@@ -36,7 +36,18 @@ mysql> flush privileges;
 修改 d:\dev\atlassin-jira-software-8.5.8-standalone\conf\server.xml
 * 替换 8080端口为5050
 
-### 启动JIRA服务访问http://localhost:5050 进行配置
+### 启动JIRA服务
+```batch
+cd d:\dev\atlassin-jira-software-8.5.8-standalone
+
+SET CATALINA_HOME=d:\dev\atlassin-jira-software-8.5.8-standalone
+SET JIRA_HOME=d:\dev\atlassin-jira-software-8.5.8-standalone
+bin\start-jira.bat
+
+```
+
+
+### 访问http://localhost:5050 进行配置
 
 选择手动设置
 
