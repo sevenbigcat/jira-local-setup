@@ -38,12 +38,42 @@ mysql> flush privileges;
 
 ### 启动JIRA服务访问http://localhost:5050 进行配置
 
-![setup 1](pic/p1.png)
+选择手动设置
+
+![setup 01](pic/p01.png)
+
+数据库设置选择MySQL 5.6
+![setup 02](pic/p02.png)
+![setup 03](pic/p03.png)
+在官网生成试用授权
+![setup 04](pic/p04.png)
+![setup 05](pic/p05.png)
+![setup 06](pic/p06.png)
+
+设置管理员账户
+![setup 07](pic/p07.png)
+跳过电子邮件通知
+![setup 08](pic/p08.png)
+选择界面语言
+![setup 09](pic/p09.png)
+选择头像
+![setup 10](pic/p10.png)
+创建项目
+![setup 11](pic/p11.png)
+![setup 12](pic/p12.png)
+选择工作流
+![setup 13](pic/p13.png)
+给项目命名
+![setup 14](pic/p14.png)
+![setup 15](pic/p15.png)
+
 
 ### 覆盖jar包
 将atlassian-extras-3.2.jar从 150机器拷贝至d:\dev\atlassin-jira-software-8.5.8-standalone\atlassian-jira\WEB-INF\lib下面
 
 ### 重启JIRA服务
 检查授权时间已经延长
-JIRA
+
+![setup 16](pic/p16.png)
+![setup 17](pic/p17.png)
 
